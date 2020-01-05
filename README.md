@@ -17,5 +17,9 @@ Programming is the literacy of the XXI century. Without programming, we would no
 - Learn about Python modules
 - Best coding practices
 
-
+## Grading
+Course will be graded as follows:
 ![Grading](https://raw.githubusercontent.com/ila2410/ICS_2020/master/Images/Grading.png)
+
+## How you can find me?
+You can write me an e-mail to ilya.kurinov@lut.fi or visit at working hours at the office 6614.

@@ -1,5 +1,17 @@
 
 # Let's make a game of guess a number game
+# At this game computer generates a number
+# and a user should guess it!
+
+#########################################
+#             Ingredients:              #
+#---------------------------------------#
+#       from random import randint      #
+#                 print()               #
+#                 input()               #
+#              if-elif-else             #
+#                  int()                #
+#########################################
 
 # Import random module
 

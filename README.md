@@ -18,3 +18,4 @@ Programming is the literacy of the XXI century. Without programming, we would no
 - Best coding practices
 
 
+![Grading](https://github.com/ila2410/ICS_2020/blob/master/Images/Grading.png)

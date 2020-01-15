@@ -26,9 +26,10 @@ groups = {'Group A' : [], 'Group B' : []}
 
 
     # if length of the list is mod of 2 (% operator)
-    # our group will be group A
+        # our group will be group A
 
-    # else group B
+    # else 
+        # group B
 
     # Now it is time to choose a student
     # Choose a student using choice() function

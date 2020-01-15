@@ -42,6 +42,6 @@ while len(students) > 0:
 		students.remove(student) # Remove student from the list
 		groups[group].append(student)  # Add chosen student to the group in the dictionary
 	
-else:
-	print(groups) # Outside the loop print() your groups
+
+print(groups) # Outside the loop print() your groups
 

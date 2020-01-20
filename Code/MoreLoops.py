@@ -18,11 +18,13 @@ for number in range(amount_numbers):
     second_number  = new_fibconacci_number
 
 # Open files in the folder 
-path = '/some/path/to/file'
-try:
-    for filename in os.listdir(path):
-        text_file = open(filename, 'r')
-        line = text_file.readline()
-        print(line)
-except:
-    print('No such directory! Check if you wrote it correctly!')
+#path = '/some/path/to/file'
+path = 'C:/Data/TextFiles'
+#try:
+for filename in os.listdir(path):
+    file_path = '{}/{}'.format(path,filename)
+    text_file = open(file_path, 'r')
+    line = text_file.readline()
+    print(line)
+#except:
+    #print('No such directory! Check if you wrote it correctly!')

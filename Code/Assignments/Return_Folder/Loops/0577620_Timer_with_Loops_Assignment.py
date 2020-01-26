@@ -51,15 +51,15 @@ while type(duration) != int:
 
         duration = int(input("Please enter a duration.\n"))
     
+        if duration < 0:
+            print("The duration must not be negative.")
+            duration = ""
+
     except:
 
         # This part of code will be executed when Python throw an exeption
         # Print here, that user didn't type correct input
         print("The input was not a number. The duration has to be a number.")
-    
-    if duration < 0:
-        print("The duration must not be negative.")
-        duration = ""
         
 
 # Outside of the previous loop initiate a variable where you will store start time
@@ -94,7 +94,36 @@ print()
 
 
 
-
-
-
 # If you want, you can do a stopwatch down here. But it is optional.
+
+#let user start the stopwatch
+start = input("Press enter to start a stopwatch. Press Ctr-C to stop it.")
+
+# Initiate a variable where you will store start time
+# You can get time by using time.time() function. Note, that it shows time in seconds from year 1970.
+# For more info follow the link:
+# https://docs.python.org/3/library/time.html
+start_time = time.time()
+
+# Now initiate variable where you will store current time at the each iteration of the loop
+# For now it can be 0 
+current_time = 0
+
+
+# Use while loop for iterating while current_time value less than duration 
+while True:
+
+    try:
+
+        # Get current time value. You can do it by assigning value of (time.time() - start_time)
+        current_time = time.time() - start_time
+
+        # Print current_ time value. You can do it even fancier.
+        # You can print it on one line. You can do it as follows:
+        #print(variable, end="\r") 
+        print(current_time, end="\r")
+    
+    except:
+        print("The stopwatch was stopped at {}.".format(current_time))
+        print()
+        break

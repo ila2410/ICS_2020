@@ -40,7 +40,7 @@ while type(duration)!=int:
     # In our case, if user's input is not a number and we will try to
     # convert it to integer, then Python will throw an error.
     # You can read about try-except block from here: https://wiki.python.org/moin/HandlingExceptions
-    duration=input('Enter a duration')
+    #duration=input('Enter a duration')
     try:
         # Ask for input value using input() function. Try-except needs indentation.
         # Then convert it at the same place to the integer as follows:
